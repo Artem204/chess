@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background: #ddd;
+    padding: 10px;
+
+}
+main {
+    width: 100%;
+    background:#ccc;
+    padding: 10px;
+}
+.globalTable {
+    width: 560px;
+    height: 560px;
+    border: 1px solid black;
+    transform: rotate(180deg);
+}
+.block {
+    width: 70px;
+    height: 70px;
+    float:right;
+    display: flex;
+    justify-content: center;
+}
+.black {
+    background: rgb(53 53 53);
+}
+.width {
+    background: rgb(180, 180, 180);
+}
+
+.widthRook {
+    display: flex;
+    justify-content: center;
+    width: 47px;
+    transform: rotate(180deg);
+    align-items: center;
+}
+.widthRook img {
+    width: 50px;
+    height: 65px;
+}
+.wr {
+    background-image: url('img/white_rook.png');
+    background-size: cover;
+}
+.wn {
+    background: url('img/white_knight.png');
+    background-size: cover;
+}
+.wb {
+    background: url('img/white_bishop.png');
+    background-size: cover;
+}
+.wq {
+    background: url('img/white_queen.png');
+    background-size: cover;
+}
+.wk {
+    background: url('img/white_king.png');
+    background-size: cover;
+}
+.wp {
+    background: url('img/white_pawn.png');
+    background-size: cover;
+}
+.br {
+    background-image: url('img/black_rook.png');
+    background-size: cover;
+}
+.bn {
+    background-image: url('img/black_knight.png');
+    background-size: cover;
+}
+.bb {
+    background-image: url('img/black_bishop.png');
+    background-size: cover;
+}
+.bq {
+    background-image: url('img/black_queen.png');
+    background-size: cover;
+}
+.bk {
+    background-image: url('img/black_king.png');
+    background-size: cover;
+}
+.bp {
+    background-image: url('img/black_pawn.png');
+    background-size: cover;
+}
