@@ -4,21 +4,35 @@
 }
 header {
     width: 100%;
-    background: #ddd;
-    padding: 10px;
+    background: #1b1b1b;
+    border-bottom: 5px solid #843704;
+    height: 152px;
+    display: flex;
+}
+#logo {
+    background: url(img/logo.png);
+    background-size: cover;
+    width: 10%;
+    border-radius: 50%;
 
+}
+#logoName {
+    background: url(img/logoName.png);
+    width: 35%;
+    background-size: cover;
 }
 main {
     width: 100%;
     background: url(img/wood3.jpg);
-    padding: 10px;
-    /*background-size: cover;*/
+    display: flex;
+
 }
 .globalTable {
     width: 560px;
     height: 560px;
     border: 1px solid black;
     transform: rotate(180deg);
+    margin: 5px;
 }
 .block {
     width: 70px;
