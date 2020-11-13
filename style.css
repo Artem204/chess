@@ -10,8 +10,9 @@ header {
 }
 main {
     width: 100%;
-    background:#ccc;
+    background: url(img/wood3.jpg);
     padding: 10px;
+    /*background-size: cover;*/
 }
 .globalTable {
     width: 560px;
@@ -27,10 +28,10 @@ main {
     justify-content: center;
 }
 .black {
-    background: rgb(53 53 53);
+    background: rgb(37, 152, 8);
 }
 .width {
-    background: rgb(180, 180, 180);
+    background: rgb(168 171 4 / 35%);
 }
 
 .widthRook {

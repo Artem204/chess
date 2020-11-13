@@ -89,37 +89,5 @@ function chessTable() {
                     
                     console.log()
     }
-     //console.log(figursCub)
-    //  figursCub.forEach(classNames => {
-    //      const indexNumberCub =classNames.charAt(4)
-    //      if(indexNumberCub <= 2){
-    //         console.log(classNames)
-
-    //      }
-    //  })
-    // figurWidth.forEach(element => {
-    //    //figurElementClass = element.classList
-       
-    //    console.log(element.classList)
-       
-    // })
-    // const elementBlock = tableBlock.querySelectorAll('div')
-    // for (var cub = elementBlock.length - 2; cub >= 0; cub--) {
-    //     tableBlock.appendChild(elementBlock[cub]);
-    //   }
-
 }
 chessTable()
-
-function rookAddTable(){
-    const startCub=document.querySelector('.cub-11')
-    const figurBlock = document.createElement('div')
-    figurBlock.className='widthRook block'
-    const imgElement = document.createElement('img')
-    imgElement.src='img/width_rook.png'
-    figurBlock.appendChild(imgElement)
-    startCub.appendChild(figurBlock)
-    //console.log(figurBlock)
-}
-
-//rookAddTable()
